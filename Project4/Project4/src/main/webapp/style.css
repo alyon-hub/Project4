@@ -1,0 +1,70 @@
+/*  Name:  Avriel Lyon 
+Course: CNT 4714 – Fall 2022 – Project Three 
+Assignment title:  A Three-Tier Distributed Web-Based Application 
+Date:  December 4, 2022 
+*/ 
+
+@charset "UTF-8";
+
+body{
+	text-align: center;
+}
+
+p {
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 34px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+}
+
+th {
+	background-color: gray;
+	height: 25px;
+	color: white;
+	text-transform: uppercase;
+}
+
+#execute, #reset, #clear {
+  display: inline;
+  padding: 5px;
+  font-size: 16px;
+  width: 200px;
+  margin: 20px;
+}
+
+#enterSupplier, #enterPart, #enterJob, #enterShipment, #clearSupplier, #clearPart, #clearJob, #clearShipment {
+  display: inline;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.line {
+	border-bottom: 1px solid black;
+}
+
+.label {
+	color: red;
+	font-weight: bold;
+}
+
+.form {
+	padding: 20px;
+}
